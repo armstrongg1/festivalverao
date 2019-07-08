@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:context=".activity.ApresentacaoActivity">
+
+        <TextView
+            android:id="@+id/textviewapresentacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:lineSpacingExtra="8sp"
+            android:padding="15dp"
+            android:text="12˚ Festival A 12º edição do Festival de Verão da UFMG apresenta “Universos Expandidos”, buscando expandir o olhar e a percepção do público para a forma como a produção do conhecimento expande a nossa existência e a percepção que temos dela. O tema envolve uma série de aspectos da vida humana e da natureza, relacionando a expansão do universo, do corpo, do intelecto, da mente, das identidades, das tecnologias, das matrizes culturais e também da produção artística.  A edição ressalta a presença da Universidade na cidade, através de inúmeros projetos e atividades, que têm como princípio estabelecer uma relação com a comunidade à qual pertence. Ao pensar ideias como expansão e expandido, quer-se pensar em amplificação, avolumamento, crescimento, prolongamento, dilatação, alargamento, aumento, ampliação e também propagação, difusão, disseminação, espalhamento.  “Universos Expandidos” dá visibilidade a algumas expansões da UFMG em Belo Horizonte por meio de uma programação diversa e acessível como espetáculos, intervenções, palestras, oficinas, shows, além de residência criativa. O tema põe em relevo a trama que dá sentido às maneiras como ocupamos e produzimos os espaços da universidade pública nos espaços da cidade e, ao mesmo tempo, somos produzidos por eles. Ao expandirmo-nos, a experiência multiplica-se, desdobra-se, envolve o corpo e todos os sentidos.     Ficha técnica  Promoção: Universidade Federal de Minas Gerais Realização: Diretoria de Ação Cultural Reitor: Jaime Arturo Ramírez Vice-Reitora: Sandra Goulart Almeida Diretora de Ação Cultural: Leda Martins Diretor do Centro Cultural UFMG: Rodrigo Vivas Diretora do Conservatório UFMG: Margarida Borghoff Diretora do Espaço do Conhecimento UFMG: Ana Flávia Machado Diretor do Centro de Comunicação da UFMG (Cedecom): Marcílio Lana Diretora Adjunta do Centro de Comunicação da UFMG (Cedecom): Tacyana Arce  Direção Geral: Leda Martins Direção Artística: Juarez Guimarães Dias Curadoria: Cristiane Myriam Drumond de Brito, Lúcia Castello Branco e Marcos Vinícius Bortolus Programação Cultural: Cristiane Myriam Drumond de Brito, Lúcia Castello Branco e Marcos Vinícius Bortolus, Juarez Guimarães Dias e Bruna Raphaella Rodrigues da Silva Acácio Gerência Administrativa: Bruna Lima e Thobila Costa Sousa Coordenação de Comunicação: Bárbara Profeta Coordenação de Eventos: Rosângela da Silva Santos Coordenação de Infraestrutura: Celso Inácio Reis Coordenação de Oficinas e Residência e Assessoria Especial: Márcia Fonseca Rocha Coordenação de Sonorização e Iluminação: Aparecida de Fátima Spínula Co-Coordenação de Sonorização e Iluminação: Denis Martins Correa Assessoria Especial: Márcia Fonseca Rocha Assessoria de Imprensa e Redes Sociais: Cícero Pedro Leão  Fotógrafa: Marina de Morais  Identidade Visual, Projeto Gráfico e Cobertura Jornalística: Cedecom    Criação: Giovana Carraro    Produção: Ana Paula Vieira e Bruma Melo    Bolsista: Luís Gustavo Fonseca    Apoio logístico: Ludmila Serra    Animação: Bruna Araújo    Desenvolvimento Web: Ana Maria Vieira, Alexandre Menezes, Miguel Saddi, Ricardo Viana, Breno Ribeiro  Revisora de Textos: Olívia Almeida Responsável Compras: Leocimar Marcos dos Santos Responsável Financeira: Vera Lúcia Magalhães da Silva Responsável Transporte: Mônica Emi Hyodo Lemos Assistente de Eventos: Bruna Raphaella Rodrigues da Silva Acácio Assistentes de Infraestrutura: Marcus de Queiroz Ferreira e Marcos Domingos Auxiliares de Eventos: Cleomar Poletto, Mateus Coelho e Rafael Soares Bolsistas de Comunicação: Lara Valéria Rêgo Fernandes e Laura Maia Martins Apoio Administrativo: Ana Cristina de Faria Machado, Anderson Perdigão Faleiro, Cayke Quadros, Gisele Salomão, Isadora Boucherville, Lourenço Faustino, Maria Letícia Seabra de Miranda, Rildo Magno Siqueira e Vitor Amaro Eletricista: Valdir Alves Gonçalves Técnicos de Sonorização e Iluminação: Graziano Carvalho, Hector Michel Pires e Ivo Lúcio dos Santos"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:typeface="monospace"
+            app:fontFamily="sans-serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.48000002" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

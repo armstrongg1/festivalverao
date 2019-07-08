@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Festival de Verão - UFMG 2019</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_mapas_google">Map</string>
+</resources>
